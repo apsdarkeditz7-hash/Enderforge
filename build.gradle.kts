@@ -1,3 +1,7 @@
+plugins {
+    id("java")
+}
+
 group = "dev.enderforge"
 version = "1.0.0"
 
@@ -10,5 +14,10 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:${property("paperApi")}")
 }
 
-java { toolchain.languageVersion.set(JavaLanguageVersion.of(25)) }
-tasks.withType<JavaCompile> { options.encoding = "UTF-8" }
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(25))
+}
+
+tasks.withType<JavaCompile> {
+    options.encoding = "UTF-8"
+}
