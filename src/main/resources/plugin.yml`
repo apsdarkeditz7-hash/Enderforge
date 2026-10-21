@@ -1,0 +1,37 @@
+name: Enderforge
+main: dev.enderforge.Enderforge
+version: 1.0.0
+api-version: '26.3'
+description: 15 modules - element powers, auto tools, money, hearts, fly and more.
+commands:
+  enderforge:
+    description: Admin command (list, toggle, reload)
+    aliases: [ef]
+  power:
+    description: Use your element power (use, element <name>, wand, info)
+  balance:
+    description: Show your money
+  automine:
+    description: Auto Miner
+  autofarm:
+    description: Auto Farmer
+  goldmaker:
+    description: Toggle the Infinity Gold Maker
+  lumberjack:
+    description: Toggle the Auto Lumberjack
+  autofish:
+    description: Toggle the Auto Fisher
+  hearts:
+    description: Heart Increaser (buy, info)
+  xpboost:
+    description: Toggle the XP Booster
+  fly:
+    description: Fly module (creative, timed, dash, boost, glide)
+  smelter:
+    description: Smelter (inventory, auto)
+permissions:
+  enderforge.admin:
+    default: op
+  enderforge.bypass:
+    description: Ignore all cooldowns
+    default: op
