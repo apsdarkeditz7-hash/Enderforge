@@ -1,4 +1,3 @@
-yaml
 name: Build Enderforge
 on:
   workflow_dispatch:
