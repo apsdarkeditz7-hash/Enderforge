@@ -1,5 +1,3 @@
-plugins { java }
-
 group = "dev.enderforge"
 version = "1.0.0"
 
